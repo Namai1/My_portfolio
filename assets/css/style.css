@@ -1,24 +1,60 @@
 /**
 * Reset style
 */
+:root{
 
+}
 
 * {
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
 
+html {
+    scroll-behavior: smooth;
 }
 
-ing {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: inline-block;
+/****header****/
+
+.header {
+    display:flex
+}
+
+
+.container__logo-title {
+    position: relative;
+}
+
+
+.nav {
+    margin-left: 20rem;
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(52, 74, 67);
+    padding-left: 1.2rem;
+    font-size:1.5rem;
+}
+.hero {
+    text-align: center;
+    height:500px;
+    padding-top: 3rem;
+}
+.hero__wrapper {
+    max-width: 400px;
+}
+
+
+.btn {
+    font-weight: 500;
+    padding: 12px 20px 10px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
 }

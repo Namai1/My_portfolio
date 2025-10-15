@@ -5,33 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namai_portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-        <header class="header">
-            <div class="header__logo">
-                <h1 class="header__logo-text">NAMAI</h1>
-            </div>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"#><a href="#" class="nav__link">Home</a></li>
-                    <li class="nav__item"#><a href="#" class="nav__link">About</a></li>
-                    <li class="nav__item"#><a href="#" class="nav__link">Projects</a></li>
-                    <li class="nav__item"#><a href="#" class="nav__link">Contact</a></li>
-                </ul>
-            </nav>
-
+    
+    <!---header--->
+    <header class="header">
+        
+       <div class="container__logo">
+         <h1 class="container__logo-title">Sohna Faye</h1>
+       </div> 
+       <nav class="nav">
+         <a href="#" class="nav__link">Home</a>
+         <a href="#" class="nav__link">About</a>
+         <a href="#" class="nav__link">Projects</a>
+         <a href="#" class="nav__link">Contact</a>
+         <button class="btn">Download Cv</button>
+       </nav>        
     </header>
 
-    <section class="hero">
-        <div class="hero__wrapper">
-           <img src="/assets/images/hero-image.jpg" alt="">
-        </div>
-         <div class="hero__header">
-                <h1 class="hero__title"></h1>
+    <!---main--->
+
+    <main class="wrapper">
+    <!---Featured Box--->
+
+    <section class="featured__box" id="home">
+        <div class="featured__text"> 
+          <div class="featured__text-card">
+            <span>Sohna Faye</span> 
+          </div>
+          <div class="featured__name">
+            <p>
+              I'm a <span>Statistician</span> and <span>Data Analyst</span> based in Brikama, Gambia. I help brands and companies to grow by providing data-driven solutions to their business problems.
+            </p>
+          </div>
+          <div class="featured__social-icons">
+            <div class="icon"><i></i></div>
+          </div>
+          <div class="featured__image">
+            <img src="/assets/images/hero-image.jpg" alt="">
+          </div>
         </div>
     </section>
+    <section class="section" id="about">
+      <div class="top__header">
+        <h1>About Me</h1>
+      </div>
+      <div class="about__content">
+        <div class="about__text">
+          <h3>My introduction</h3>
+          <p>
+            I am a passionate Statistician and Data Analyst with a strong background
+            in statistical analysis, data visualization, and machine learning. 
+            I am pursuing a degree in Mathematics and Computer Science at the 
+            University of The Gambia and have honed my skills through various projects.
+          </p>    
+          <p>
+            My expertise lies in transforming raw data into actionable insights that drive informed decision-making. I am proficient in tools such as Python, R, Matlab, and Maple, and have experience working with large datasets to uncover trends and patterns.
+          </p>
+          <p>
+            In addition to my technical skills, I am a strong communicator and enjoy collaborating with cross-functional teams to solve complex problems. I am always eager to learn new techniques and stay updated with the latest advancements in the field of Mathematics data science.
+          </p>
+          <button class="btn">Download cv <i class="uil uil-import"></i>
+          </button>
+        </div>
+    </section> 
+    <section class="section" id="projects">
+      <div class="top__header">
+        <h1>Projects</h1>
+      </div>
+      <div class="project__container">
+        <h3>Completed</h3>
+        <label>3 finished projects</label>
+      </div>
+      <div class="project-box">
+        <h3>Clients</h3>
+        <label >happy client</label>
+      </div>
+      <div class="skill__box">
+        <div class="skill_header">Data analysis</div>
+        <div class="skill__list">
+          <span>R</span>
+          <span>Matlab</span>
+          <span>Python</span>
+          <span>Maple</span>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <div class="top__header">
+        <h1>Get in torch</h1>
+        <span>Do contact me here, if you have any project in mind</span>
+        <div class="contact__info">
+          <h2>Find me</h2>
+          <p>Email:sohnafaye123@gmail.com</p>
+          <p>Tel: 3815559/6993012</p>
+        </div>
+      </div>
+    </section>
+    </main>
 </body>
 
 </html>
