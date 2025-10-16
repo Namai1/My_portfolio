@@ -30,6 +30,7 @@ html {
 
 .container__logo-title {
     position: relative;
+    padding: 1rem;
 }
 
 
@@ -44,6 +45,7 @@ html {
     color: rgb(52, 74, 67);
     padding-left: 1.2rem;
     font-size:1.5rem;
+    gap: 1.5rem;
     
 }
 
@@ -69,20 +71,10 @@ html {
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
+    background: #86b4c8;
     
 }
 
-
-.featured__text-card {
-    font-size: 1.75rem;
-    font-weight: 100px;
-    background-color: bisque;
-    width: fit-content;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 1rem
-}
 
 
 .featured__name {
@@ -113,14 +105,15 @@ html {
 
 
 .featured__image p {
-    flex: 1;
     font-size: 1.2rem;
-    color: rgb(105, 105, 105);
-    margin-bottom: 1.2rem;
+    color: rgb(62, 57, 57);
+    margin-right: 15rem;
     padding: 1rem;
-    border: 1px solid #1e1a1a;
+    border: 1px;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
     width: fit-content;
+    background-color: #f0f0f0;
 }
 
 
@@ -162,19 +155,21 @@ html {
 
 .about__content {
     display: block;
-    align-items: center;
-    gap: 2rem;
+    align-self: start;
     flex-wrap: wrap;
-    justify-content: center;
+    
     
 }
 
 .about__text {
-    border: 2px solid #ccc;
+    border: 2px ;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
     border-radius: 10px;
+    background: #8ecdd7;
     padding: 1rem;
     margin: 2rem;
     width: 60%;
+  
 }
 
 
@@ -182,6 +177,15 @@ html {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
+
+.about__text p {
+    letter-spacing: .3px;
+    line-height: 1.5rem;
+    text-align: justify;
+
+}
+
 
 .btn1 {
     font-weight: 500;
@@ -245,3 +249,14 @@ ul {
     padding: 3rem;
 }
 
+/***Contact box***/
+
+.contact__info {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
