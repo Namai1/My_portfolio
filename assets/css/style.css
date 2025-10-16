@@ -1,6 +1,8 @@
 /**
 * Reset style
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 :root{
 
 }
@@ -15,6 +17,14 @@
 html {
     scroll-behavior: smooth;
 }
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
 
 /****header****/
 
@@ -39,11 +49,15 @@ html {
     padding-left: 1.2rem;
     font-size:1.5rem;
 }
+
+
 .hero {
     text-align: center;
     height:500px;
     padding-top: 3rem;
 }
+
+
 .hero__wrapper {
     max-width: 400px;
 }
@@ -57,4 +71,55 @@ html {
     border-radius: 10px;
     cursor: pointer;
     transition: .4s;
+}
+
+
+.featured__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.featured__text-card {
+    font-size: 1.75rem;
+    font-weight: 100px;
+    background-color: bisque;
+    width: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 1rem
+}
+
+
+.featured__name {
+
+    
+    
+}
+
+.featured__image {
+    padding: auto;
+    width: 300px;
+}
+
+
+img {
+    margin-left: 2rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 200px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: rgb(105, 105, 105);
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: fit-content;
 }
