@@ -97,7 +97,7 @@ body {
   gap: 2rem;
   padding: 3rem;
   background: var(--color-secondary);
-  color: #fff;
+  
 }
 
 .featured__image {
@@ -234,24 +234,25 @@ body {
 .project1 h3 {
   font-size: 1.4rem;
   color: var(--color-primary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
-.project1 p {
+
+.project1 hr {
+  border: none;
+  border-top: 2px solid var(--color-secondary);
+  margin: 0.5rem 0 0.8rem 0; /* spaces above/below line */
+}
+
+.project1 label {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
   color: var(--color-dark);
-  margin: 0.5rem 0;
 }
-
-.project1 a {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-
-.project1 a:hover {
-  text-decoration: underline;
-}
-
-/* Skills */
+/* ==========================================================================
+   Skills Section
+   ========================================================================== */
 .skill__box {
   text-align: center;
   margin-top: 3rem;
@@ -298,13 +299,11 @@ body {
 
 
 /* ==========================================================================
-   Footer (optional future use)
+   Footer 
    ========================================================================== */
 footer {
   text-align: center;
   padding: 1rem;
-  background: var(--color-primary);
-  color: #fff;
   margin-top: 3rem;
   border-radius: 0 0 10px 10px;
 }
